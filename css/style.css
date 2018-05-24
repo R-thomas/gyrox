@@ -672,6 +672,15 @@ svg {
   }
 }
 
+@media screen and (min-width: 1500px) {
+  .top__container {
+    padding-top: 250px;
+  }
+  .top {
+    height: 1330px;
+  }
+}
+
 .card {
   width: 100%;
   height: 260px;
@@ -835,4 +844,19 @@ svg {
 .footer__item {
   text-align: right;
   border: none;
+}
+
+@media screen and (max-width: 991.9px) {
+  .footer__logo {
+    margin-top: -30px;
+  }
+  .footer__tel {
+    margin-top: 10px;
+  }
+  .footer__item {
+    text-align: left;
+  }
+  .footer__nav {
+    margin-top: 30px;
+  }
 }
